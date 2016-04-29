@@ -49,4 +49,26 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:indeterminate="false" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek_volume"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/seek_progress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/seek_progress"
+        android:layout_alignEnd="@+id/seek_progress"
+        android:indeterminate="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mute"
+        android:id="@+id/check_mute"
+        android:layout_alignBottom="@+id/btn_stop"
+        android:layout_alignRight="@+id/seek_progress"
+        android:layout_alignEnd="@+id/seek_progress"
+        android:checked="false" />
 </RelativeLayout>
